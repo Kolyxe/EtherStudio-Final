@@ -1449,7 +1449,7 @@ figcaption {
 }
 
 .navbar1_component {
-  z-index: 1;
+  z-index: 200;
   width: 100%;
   height: auto;
   min-height: 6.5rem;
@@ -2650,7 +2650,7 @@ figcaption {
 
 .footer {
   z-index: 1;
-  height: 45rem;
+  height: 42.5rem;
   background-color: var(--beige);
   justify-content: center;
   align-items: flex-end;
@@ -3476,7 +3476,7 @@ figcaption {
 }
 
 .section_multi-form22 {
-  z-index: 200;
+  z-index: 201;
   color: var(--beige);
   margin-top: 3rem;
   margin-right: 3rem;
@@ -4417,7 +4417,7 @@ figcaption {
   }
 
   .footer-container {
-    z-index: -1;
+    z-index: 1;
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
