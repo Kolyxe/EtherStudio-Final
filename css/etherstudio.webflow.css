@@ -2712,7 +2712,7 @@ figcaption {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   padding: 2rem;
   display: flex;
   position: relative;
@@ -3755,6 +3755,10 @@ figcaption {
   display: flex;
 }
 
+.div-block-5 {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .navbar1_logo {
     max-width: 85%;
@@ -4448,6 +4452,7 @@ figcaption {
 
   .testimonial18_content {
     height: auto;
+    margin-bottom: 2rem;
   }
 
   .team12_list {
@@ -4971,6 +4976,7 @@ figcaption {
   .testimonial18_content {
     height: auto;
     align-items: center;
+    margin-bottom: 2rem;
     padding: 1.5rem;
   }
 
@@ -5370,6 +5376,7 @@ figcaption {
   .testimonial18_content {
     height: auto;
     align-items: center;
+    margin-bottom: 2rem;
   }
 
   .team12_image-wrapper {
