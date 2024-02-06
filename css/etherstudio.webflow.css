@@ -5227,6 +5227,10 @@ figcaption {
     font-size: 2.5em;
   }
 
+  .home-cta_span.span-wrapper {
+    display: inline-block;
+  }
+
   .text-size-h2, .text-size-h2-2 {
     font-size: 2.5em;
   }
@@ -5518,7 +5522,8 @@ figcaption {
   }
 
   .text-block-7 {
-    margin-left: 0;
+    margin-top: 7px;
+    margin-left: .5rem;
     font-size: 1.75rem;
     font-weight: 700;
   }
