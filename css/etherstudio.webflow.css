@@ -533,11 +533,11 @@ figcaption {
 }
 
 .text-size-medium {
-  opacity: .8;
+  opacity: 1;
   color: var(--beige);
   margin-left: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .text-size-medium.z-index-2.text-color-white {
@@ -2034,10 +2034,10 @@ figcaption {
 }
 
 .layout1_component {
-  grid-column-gap: 5rem;
+  grid-column-gap: 4.25rem;
   grid-row-gap: 4rem;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3.5fr 2fr;
   grid-auto-columns: 1fr;
   align-items: center;
   display: grid;
@@ -2241,12 +2241,12 @@ figcaption {
 }
 
 .text-block-3 {
-  opacity: .8;
+  opacity: 1;
   color: var(--beige);
   text-align: right;
   margin-right: 1rem;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .text-span {
@@ -4492,9 +4492,17 @@ figcaption {
     padding: 2rem;
   }
 
+  .multi-form22_close-button {
+    display: none;
+  }
+
   .padding-section-large-2 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .multi-form22_component {
+    display: flex;
   }
 
   .multi-form22_content-wrapper {
@@ -4502,6 +4510,7 @@ figcaption {
     max-width: none;
     padding-left: 3rem;
     padding-right: 3rem;
+    overflow: auto;
   }
 
   .image-13 {
