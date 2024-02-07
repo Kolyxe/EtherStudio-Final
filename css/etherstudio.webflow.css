@@ -2993,6 +2993,8 @@ figcaption {
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 2.5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   display: flex;
 }
 
@@ -3530,7 +3532,7 @@ figcaption {
   background-color: var(--black);
   padding: 3rem;
   position: fixed;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .link {
@@ -3756,6 +3758,15 @@ figcaption {
 }
 
 .div-block-5 {
+  display: none;
+}
+
+.image-23 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.html-embed {
   display: none;
 }
 
