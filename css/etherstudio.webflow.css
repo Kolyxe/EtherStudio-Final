@@ -2895,6 +2895,7 @@ figcaption {
 .paragraph-4 {
   opacity: .6;
   margin-bottom: 0;
+  font-size: 1.1rem;
 }
 
 .random-btn-wrapper {
@@ -3210,11 +3211,12 @@ figcaption {
 
 .text-opacity-60 {
   opacity: .6;
+  font-size: 1.1rem;
 }
 
 .text-opacity-60.text-align-center {
   text-align: left;
-  font-size: .95rem;
+  font-size: 1.1rem;
 }
 
 .image-9 {
@@ -3908,6 +3910,10 @@ figcaption {
   right: auto;
 }
 
+.hover_me_pointer.fade-up {
+  left: -18%;
+}
+
 .link-block.backgroundvideo.item, .link-block-2.backgroundvideo.item {
   color: var(--beige);
   text-decoration: none;
@@ -4426,6 +4432,10 @@ figcaption {
     align-self: center;
     position: absolute;
     left: -19%;
+  }
+
+  .hover_me_pointer.fade-up {
+    left: -27%;
   }
 
   .link-block {
@@ -6027,6 +6037,10 @@ figcaption {
 
   .fade-up-svg.fade-up.special-svg {
     max-width: 7%;
+  }
+
+  .link-block.backgroundvideo.item, .link-block-2.backgroundvideo.item {
+    min-height: 20rem;
   }
 }
 
