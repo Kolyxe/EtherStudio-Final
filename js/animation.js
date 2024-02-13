@@ -16,7 +16,7 @@ $(document).ready(function () {
   }
 });
 function setupVideoInteractions(enable) {
-  document.querySelectorAll(".backgroundvideo").forEach((container) => {
+  document.querySelectorAll(".backgroundVideo").forEach((container) => {
     const video = container.querySelector("video");
     if (!video) return;
     // Function to reset and pause video
