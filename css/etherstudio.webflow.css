@@ -5701,6 +5701,7 @@ figcaption {
 
   .layout1_component {
     grid-template-columns: 1fr;
+    margin-bottom: 5rem;
   }
 
   .image-4.svg-header.fade-up-svg.fade-up {
