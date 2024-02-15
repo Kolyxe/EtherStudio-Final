@@ -5741,7 +5741,7 @@ figcaption {
   }
 
   .text-size-h3.spacing-header_text.fade-up {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .home-cta_span.span-wrapper {
@@ -5796,7 +5796,11 @@ figcaption {
 
   .heading.fade-up {
     margin-left: 0;
-    font-size: 2.95rem;
+    font-size: 2rem;
+  }
+
+  .blend-text {
+    font-size: 2rem;
   }
 
   .home-hero-bg-wrap {
