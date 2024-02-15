@@ -4143,6 +4143,10 @@ figcaption {
   color: var(--color);
 }
 
+.text-span-5 {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .navbar1_logo {
     max-width: 85%;
@@ -6090,6 +6094,10 @@ figcaption {
     font-weight: 700;
   }
 
+  .text-span-3 {
+    display: inline;
+  }
+
   .pageload-center {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -6126,6 +6134,10 @@ figcaption {
 
   .link-block.backgroundvideo.item, .link-block-2.backgroundvideo.item {
     min-height: 20rem;
+  }
+
+  .text-span-5 {
+    display: inline;
   }
 }
 
