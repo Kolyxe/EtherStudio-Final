@@ -2827,6 +2827,7 @@ figcaption {
 }
 
 .text-size-medium-4 {
+  text-transform: uppercase;
   font-size: 1.125rem;
 }
 
@@ -5701,6 +5702,11 @@ figcaption {
     max-width: none;
   }
 
+  .button-group.is-center {
+    grid-column-gap: .25rem;
+    grid-row-gap: .25rem;
+  }
+
   .text-align-center.special-header {
     max-width: 17rem;
     flex-direction: column;
@@ -5803,6 +5809,10 @@ figcaption {
 
   .line-wrapper {
     display: none;
+  }
+
+  .button-4 {
+    padding: .5rem 1rem;
   }
 
   .faq4_component, .faq4_accordion {
@@ -5925,6 +5935,8 @@ figcaption {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
   }
 
@@ -5938,6 +5950,11 @@ figcaption {
 
   .card-row14_card-small {
     height: auto;
+  }
+
+  .card-row14_card-small-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .card-row14_card-small-content-top {
