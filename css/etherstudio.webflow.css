@@ -2267,6 +2267,12 @@ figcaption {
   display: flex;
 }
 
+.tool-icon-wrapper.fade-up {
+  max-width: 18rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .text-block-3 {
   opacity: 1;
   color: var(--beige);
@@ -4139,6 +4145,10 @@ figcaption {
   font-weight: 700;
 }
 
+.button-6.w--current {
+  background-color: var(--card);
+}
+
 .text-span-4 {
   color: var(--color);
 }
@@ -4375,6 +4385,10 @@ figcaption {
 
   .layout230_item.item.fadeupholder {
     position: relative;
+  }
+
+  .card-row14_card-small.fade-up {
+    border-width: 0;
   }
 
   .text-opacity-60.text-align-center {
@@ -5961,6 +5975,7 @@ figcaption {
   }
 
   .card-row14_card-small-content {
+    width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -6095,7 +6110,7 @@ figcaption {
   }
 
   .text-span-3 {
-    display: inline;
+    display: none;
   }
 
   .pageload-center {
