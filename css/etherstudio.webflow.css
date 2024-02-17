@@ -1146,11 +1146,15 @@ figcaption {
 .icon-embed-xsmall {
   width: 1.5rem;
   height: 1.5rem;
-  color: var(--beige);
+  color: var(--color);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.icon-embed-xsmall.special_beige {
+  color: var(--beige);
 }
 
 .icon-height-xxsmall {
@@ -4917,7 +4921,7 @@ figcaption {
   }
 
   .icon-embed-xsmall {
-    color: var(--beige);
+    color: var(--color);
     cursor: pointer;
   }
 
