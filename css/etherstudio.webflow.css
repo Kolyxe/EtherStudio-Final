@@ -470,10 +470,10 @@ figcaption {
 .margin-bottom.margin-small {
   margin-left: 0;
   margin-right: 0;
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
-.margin-bottom.margin-large, .margin-bottom.margin-0, .margin-bottom.margin-xlarge, .margin-bottom.margin-xhuge, .margin-bottom.margin-xxhuge, .margin-bottom.margin-huge, .margin-bottom.margin-xxsmall, .margin-bottom.margin-custom2, .margin-bottom.margin-xsmall, .margin-bottom.margin-large, .margin-bottom.margin-xxlarge {
+.margin-bottom.margin-large, .margin-bottom.margin-0, .margin-bottom.margin-xlarge, .margin-bottom.margin-xhuge, .margin-bottom.margin-xxhuge, .margin-bottom.margin-huge, .margin-bottom.margin-xxsmall, .margin-bottom.margin-custom2, .margin-bottom.margin-xsmall, .margin-bottom.margin-large, .margin-bottom.margin-xxlarge, .margin-bottom.margin-small {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -4272,7 +4272,6 @@ figcaption {
   z-index: 1;
   width: 100%;
   height: 6rem;
-  background-image: linear-gradient(to top, var(--\<unknown\|relume-variable-color-neutral-2\>), rgba(255, 255, 255, 0));
   position: absolute;
   top: auto;
   bottom: 0%;
@@ -4289,7 +4288,7 @@ figcaption {
 }
 
 .layout352_progress {
-  z-index: -3;
+  z-index: -4;
   width: 3px;
   height: 100%;
   background-color: #292929;
@@ -4342,7 +4341,6 @@ figcaption {
   z-index: 1;
   width: 100%;
   height: 6rem;
-  background-image: linear-gradient(to bottom, var(--\<unknown\|relume-variable-color-neutral-2\>), rgba(255, 255, 255, 0));
   position: absolute;
   top: 0%;
   bottom: auto;
@@ -4408,7 +4406,7 @@ figcaption {
 
 .testimonial19_content {
   width: 100%;
-  min-height: 30rem;
+  min-height: 27.5rem;
   border: 1px solid var(--beige);
   border-radius: 5px;
   flex-direction: column;
@@ -4669,7 +4667,7 @@ figcaption {
   background-color: var(--\<unknown\|relume-variable-color-neutral-1\>);
   color: var(--\<unknown\|relume-variable-color-neutral-2\>);
   flex-direction: column;
-  padding: .75rem;
+  padding: 0;
   display: flex;
 }
 
@@ -4702,7 +4700,7 @@ figcaption {
 }
 
 .tooltip2_tooltip-wrapper {
-  width: 15rem;
+  width: 22.5rem;
   padding-bottom: .75rem;
   position: absolute;
   bottom: 100%;
@@ -4730,9 +4728,126 @@ figcaption {
 }
 
 .div-block-12 {
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
   display: flex;
+}
+
+.text-size-medium-16 {
+  font-size: 1.125rem;
+}
+
+.button-10 {
+  border: 1px solid var(--\<unknown\|relume-variable-color-neutral-1\>);
+  background-color: var(--\<unknown\|relume-variable-color-neutral-1\>);
+  color: var(--\<unknown\|relume-variable-color-neutral-2\>);
+  text-align: center;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+}
+
+.button-10.is-link {
+  color: var(--\<unknown\|relume-variable-color-neutral-1\>);
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  padding: .25rem 0;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.button-10.is-link.is-icon {
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+}
+
+.button-10.is-secondary {
+  color: var(--\<unknown\|relume-variable-color-neutral-1\>);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.layout352_circle-2 {
+  width: .9375rem;
+  height: .9375rem;
+  background-color: var(--\<unknown\|relume-variable-color-neutral-1\>);
+  box-shadow: 0 0 0 8px var(--\<unknown\|relume-variable-color-neutral-2\>);
+  border-radius: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50vh;
+}
+
+.layout352_fade-overlay-bottom-2 {
+  z-index: 1;
+  width: 100%;
+  height: 6rem;
+  background-image: linear-gradient(to top, var(--\<unknown\|relume-variable-color-neutral-2\>), rgba(255, 255, 255, 0));
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.layout352_date-text-2 {
+  text-align: right;
+}
+
+.layout352_progress-2 {
+  z-index: -2;
+  width: 3px;
+  height: 100%;
+  background-color: #b3b3b3;
+  position: absolute;
+}
+
+.layout352_progress-bar-2 {
+  z-index: -1;
+  width: 3px;
+  height: 50vh;
+  background-color: var(--\<unknown\|relume-variable-color-neutral-1\>);
+  position: fixed;
+  top: 0;
+  bottom: 50vh;
+}
+
+.layout352_layout-2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.layout352_heading-2 {
+  background-color: var(--\<unknown\|relume-variable-color-neutral-2\>);
+}
+
+.layout352_fade-overlay-top-2 {
+  z-index: 1;
+  width: 100%;
+  height: 6rem;
+  background-image: linear-gradient(to bottom, var(--\<unknown\|relume-variable-color-neutral-2\>), rgba(255, 255, 255, 0));
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.layout352_item-2 {
+  z-index: 2;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 12rem 1fr;
+  grid-auto-columns: 1fr;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: grid;
+  position: relative;
+}
+
+.section_layout352-2 {
+  z-index: -3;
+  position: relative;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4802,7 +4917,7 @@ figcaption {
   }
 
   .icon-embed-xsmall {
-    color: var(--color);
+    color: var(--beige);
     cursor: pointer;
   }
 
@@ -5114,6 +5229,12 @@ figcaption {
 
   .layout352_item {
     width: 100%;
+  }
+
+  .testimonial19_content {
+    min-height: 25rem;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .card_process {
@@ -5716,6 +5837,14 @@ figcaption {
 
   .heading-4 {
     font-size: 1.75rem;
+  }
+
+  .layout352_date-text-2 {
+    text-align: right;
+  }
+
+  .layout352_item-2 {
+    grid-template-columns: 1fr 10rem 1fr;
   }
 }
 
@@ -6438,6 +6567,25 @@ figcaption {
     grid-row-gap: 1rem;
     display: flex;
   }
+
+  .text-size-medium-16 {
+    font-size: 1rem;
+  }
+
+  .layout352_date-text-2 {
+    text-align: left;
+  }
+
+  .layout352_progress-2 {
+    left: .375rem;
+  }
+
+  .layout352_item-2 {
+    width: 100%;
+    grid-row-gap: 1.5rem;
+    grid-template-rows: auto auto;
+    grid-template-columns: 4rem 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -7058,6 +7206,10 @@ figcaption {
 
   .text-span-6 {
     display: none;
+  }
+
+  .layout352_item-2 {
+    grid-template-columns: 3rem 1fr;
   }
 }
 
