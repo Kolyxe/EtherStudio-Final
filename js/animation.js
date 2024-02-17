@@ -103,6 +103,7 @@ function closeModal() {
 document
   .querySelector(".multi-form22_close-button")
   .addEventListener("click", closeModal);
+
 function myFade() {
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.defaults({
