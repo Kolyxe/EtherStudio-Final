@@ -1146,7 +1146,7 @@ figcaption {
 .icon-embed-xsmall {
   width: 1.5rem;
   height: 1.5rem;
-  color: var(--color);
+  color: var(--beige);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -4408,7 +4408,7 @@ figcaption {
 
 .testimonial19_content {
   width: 100%;
-  min-height: 25rem;
+  min-height: 30rem;
   border: 1px solid var(--beige);
   border-radius: 5px;
   flex-direction: column;
