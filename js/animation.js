@@ -167,17 +167,3 @@ function myFade() {
   });
 }
 myFade();
-
-gsap.to("#layout352_progress-bar", {
-  height: () =>
-    document.documentElement.scrollHeight - window.innerHeight + "px",
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#layout352_progress",
-    start: "top top",
-    end: "bottom bottom",
-    scrub: true,
-    markers: true, // Remove in production; this is just for debugging
-    pin: true, // Optional: if you want to pin the progress bar
-  },
-});
