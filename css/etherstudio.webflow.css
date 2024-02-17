@@ -5073,6 +5073,10 @@ figcaption {
     font-size: 1.15rem;
   }
 
+  .faq4_accordion.fade-up, .faq4_accordion.fade-up.first {
+    border-radius: 5px;
+  }
+
   .layout232_component.fadeupholder {
     overflow: hidden;
   }
