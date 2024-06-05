@@ -6806,7 +6806,7 @@ figcaption {
 
   .text-align-center.special-header.fadeupholder {
     flex-wrap: wrap;
-    max-width: 18rem;
+    max-width: 25rem;
   }
 
   .navbar1_component {
@@ -6816,6 +6816,13 @@ figcaption {
   .navbar1_logo {
     max-width: 50%;
     margin-top: 1rem;
+  }
+
+  .header80_content {
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    max-width: 25rem;
   }
 
   .section_header80 {
@@ -7321,6 +7328,10 @@ figcaption {
 
   .layout352_item-2 {
     grid-template-columns: 3rem 1fr;
+  }
+
+  .text_block {
+    max-width: 18rem;
   }
 }
 
