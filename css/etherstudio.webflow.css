@@ -6904,6 +6904,10 @@ figcaption {
     line-height: 1.5;
   }
 
+  .heading.fade-up.special_header {
+    margin-left: -12px;
+  }
+
   .blend-text {
     font-size: 1.9rem;
   }
