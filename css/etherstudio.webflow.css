@@ -2913,8 +2913,11 @@ figcaption {
   border-color: var(--beige);
   background-color: rgba(20, 20, 20, 0);
   border-radius: 5px;
+  justify-content: center;
+  align-items: center;
   height: 47rem;
   max-height: 46rem;
+  display: flex;
 }
 
 .team12_item {
@@ -2922,7 +2925,7 @@ figcaption {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
-  padding-bottom: 35px;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -2964,10 +2967,10 @@ figcaption {
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 5px;
-  width: 100%;
-  max-width: 80%;
+  width: 22.5rem;
+  max-width: 22.5rem;
   height: 100%;
-  max-height: 50%;
+  max-height: 25rem;
 }
 
 .team12_image-wrapper {
@@ -5079,6 +5082,23 @@ figcaption {
 
   .team12_list-wrapper {
     max-height: 45rem;
+  }
+
+  .team12_list-wrapper.fade-up {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .team12_item {
+    height: 100%;
+    padding-bottom: 0;
+  }
+
+  .team12_image {
+    max-width: 22.5rem;
+    height: 100%;
+    max-height: 26rem;
   }
 
   .layout230_item.item.fadeupholder {
