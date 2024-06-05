@@ -6823,8 +6823,8 @@ figcaption {
   .header80_content {
     justify-content: center;
     align-items: center;
-    width: 18rem;
-    max-width: 18rem;
+    width: 20rem;
+    max-width: 20rem;
   }
 
   .section_header80 {
@@ -6844,7 +6844,7 @@ figcaption {
   }
 
   .text-size-h3.spacing-header_text.fade-up {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
 
   .home-cta_span.span-wrapper {
@@ -6905,7 +6905,7 @@ figcaption {
   }
 
   .blend-text {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .home-hero-bg-wrap {
