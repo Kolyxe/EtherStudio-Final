@@ -6806,7 +6806,9 @@ figcaption {
 
   .text-align-center.special-header.fadeupholder {
     flex-wrap: wrap;
-    max-width: 25rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 22rem;
   }
 
   .navbar1_component {
@@ -6821,8 +6823,8 @@ figcaption {
   .header80_content {
     justify-content: center;
     align-items: center;
-    width: 25rem;
-    max-width: 25rem;
+    width: 22rem;
+    max-width: 22rem;
   }
 
   .section_header80 {
@@ -6842,10 +6844,11 @@ figcaption {
   }
 
   .text-size-h3.spacing-header_text.fade-up {
-    font-size: 1.9em;
+    font-size: 2em;
   }
 
   .home-cta_span.span-wrapper {
+    font-size: 2.5em;
     display: none;
   }
 
@@ -6902,7 +6905,7 @@ figcaption {
   }
 
   .blend-text {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
 
   .home-hero-bg-wrap {
