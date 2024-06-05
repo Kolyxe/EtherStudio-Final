@@ -6808,7 +6808,7 @@ figcaption {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 22rem;
+    max-width: 20rem;
   }
 
   .navbar1_component {
@@ -6823,8 +6823,8 @@ figcaption {
   .header80_content {
     justify-content: center;
     align-items: center;
-    width: 22rem;
-    max-width: 22rem;
+    width: 18rem;
+    max-width: 18rem;
   }
 
   .section_header80 {
@@ -6844,7 +6844,7 @@ figcaption {
   }
 
   .text-size-h3.spacing-header_text.fade-up {
-    font-size: 2em;
+    font-size: 1.9em;
   }
 
   .home-cta_span.span-wrapper {
@@ -6905,7 +6905,7 @@ figcaption {
   }
 
   .blend-text {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 
   .home-hero-bg-wrap {
@@ -7334,7 +7334,7 @@ figcaption {
   }
 
   .text_block {
-    max-width: 18rem;
+    max-width: 12rem;
   }
 }
 
