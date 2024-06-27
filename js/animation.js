@@ -47,62 +47,6 @@ function setupVideoInteractions(enable) {
 window.onload = () => {
   setupVideoInteractions(window.innerWidth >= 991);
 };
-const cursor = document.querySelector(".cursor");
-const hoverItem = document.querySelector("#hover-item");
-let isMouseMoving = false; // Flag to track mouse movement
-let mouseX = 0;
-let mouseY = 0;
-// Constants for proximity and scaling
-const maxDistance = 75; // Maximum distance at which scaling starts
-const maxScale = 12.5; // Maximum scale when cursor is over hover-item
-document.addEventListener("mousemove", (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-  if (!isMouseMoving) {
-    isMouseMoving = true;
-    requestAnimationFrame(updateCursor);
-  }
-});
-//Function for cursor animation on header
-function updateCursor() {
-  if (window.innerWidth > 991) {
-    const hoverItemRect = hoverItem.getBoundingClientRect();
-    const dist = distanceToPoint(mouseX, mouseY, hoverItemRect);
-    const scale = calculateScale(dist, maxDistance, maxScale);
-    // Use mouseX and mouseY directly for setting the cursor's position
-    cursor.style.opacity = scale > 1 ? 1 : 0;
-    cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) scale(${scale})`;
-    if (scale > 1) {
-      document.body.style.cursor = "none";
-    } else {
-      document.body.style.cursor = "auto";
-    }
-  } else {
-    // Reset custom cursor styles for smaller screens
-    document.body.style.cursor = "auto";
-    cursor.style.opacity = 0;
-    cursor.style.transform = "none";
-  }
-  isMouseMoving = false;
-}
-function distanceToPoint(x, y, rect) {
-  const dx = Math.max(rect.left - x, 0, x - rect.right);
-  const dy = Math.max(rect.top - y, 0, y - rect.bottom);
-  return Math.sqrt(dx * dx + dy * dy);
-}
-function calculateScale(distance, maxDistance, maxScale) {
-  if (distance > maxDistance) return 1;
-  return 1 + ((maxScale - 1) * (maxDistance - distance)) / maxDistance;
-}
-function closeModal() {
-  const modal = document.querySelector(".multi-form22_component");
-  modal.style.display = "none";
-  requestAnimationFrame(updateCursor);
-}
-// Attach event listener for closing the modal
-document
-  .querySelector(".multi-form22_close-button")
-  .addEventListener("click", closeModal);
 
 function myFade() {
   gsap.registerPlugin(ScrollTrigger);
