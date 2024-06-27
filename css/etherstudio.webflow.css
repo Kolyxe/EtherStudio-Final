@@ -5632,7 +5632,7 @@ figcaption {
   color: var(--beige);
   width: 100vw;
   height: 100vh;
-  display: none;
+  display: flex;
   position: fixed;
   top: 0%;
   bottom: 0%;
