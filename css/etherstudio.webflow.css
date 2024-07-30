@@ -5053,6 +5053,7 @@ figcaption {
   z-index: 2;
   background-color: var(--black);
   color: var(--beige);
+  display: none;
   position: relative;
 }
 
